@@ -22,7 +22,7 @@ export default function Home() {
           </li>
         </ul>
         <h1 className="title">
-          Home | CeroyUno
+          Home | CeroyUno | UI-KIT
         </h1>
       </main>
     </div>
