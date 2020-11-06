@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Home | CeroyUno</title>
+        <title>About | CeroyUno</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
@@ -22,7 +22,7 @@ export default function Home() {
           </li>
         </ul>
         <h1 className="title">
-          Home | CeroyUno
+          About | CeroyUno
         </h1>
       </main>
     </div>
