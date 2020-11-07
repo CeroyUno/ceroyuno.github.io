@@ -1,1 +1,0 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[6],{"1HF/":function(n,t,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/_error",function(){return o("Y0NT")}])},Y0NT:function(n,t,o){"use strict";o.r(t),o.d(t,"default",(function(){return r}));var u=o("q1tI"),e=o.n(u).a.createElement;function r(){return e("h1",null,"Hi Page Not Found")}}},[["1HF/",0,2,1]]]);
