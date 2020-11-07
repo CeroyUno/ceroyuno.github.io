@@ -15,6 +15,7 @@
 /build
 /out
 /server
+/dist
 
 # misc
 .DS_Store
