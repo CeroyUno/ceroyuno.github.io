@@ -6,7 +6,7 @@ module.exports = {
     return [
       {
         source: '/news/:slug',
-        destination: '/blog/:slug', // Matched parameters can be used in the destination
+        destination: '/blog/article', // Matched parameters can be used in the destination
       },
     ]
   },
