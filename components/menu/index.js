@@ -18,6 +18,11 @@ export default function Menu() {
           <a>About Us</a>
         </Link>
       </li>
+      <li>
+        <Link href="/test">
+          <a>Test</a>
+        </Link>
+      </li>
     </ul>
   )
 }
