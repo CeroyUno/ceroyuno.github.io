@@ -13,7 +13,12 @@ export default function Articles (props) {
           rest && rest.map(function(article, index){
             return (
             <li key={index}>
-              <Link href={`/blog/first-new-${index}`}>
+              <Link 
+                href={{
+                  pathname: '/blog/[slug]',
+                  query: { slug: `first-new-${index}` },
+                }}
+              >
                 <a>{article.title}</a>
               </Link>
             </li>

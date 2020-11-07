@@ -1,28 +1,17 @@
 import Head from 'next/head';
-import Link from 'next/link';
+import MenuComponent from '../components/menu';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>About | CeroyUno</title>
+        <title>ABOUT | CeroyUno</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <ul>
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>About Us</a>
-            </Link>
-          </li>
-        </ul>
+        <MenuComponent />
         <h1 className="title">
-          About | CeroyUno | UI-KIT
+          ABOUT | CeroyUno
         </h1>
       </main>
     </div>

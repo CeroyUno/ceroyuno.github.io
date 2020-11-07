@@ -15,3 +15,6 @@ https://nextjs.org/docs/api-reference/next.config.js/exportPathMap
 ## Clean ./docs and ./dist folder in order to remove previous files.
 
 * Create task (clean.js) nodejs for remove this directories.
+
+## Slug for create blog router
+https://css-tricks.com/building-a-blog-with-next-js/

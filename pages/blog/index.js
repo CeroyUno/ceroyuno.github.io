@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import React, { useState, useEffect } from 'react';
-import MenuComponent from '../components/menu';
-import ArticlesService from '../services/articles';
-import ArticlesComponent from '../components/articles/articles';
+import MenuComponent from '../../components/menu';
+import ArticlesService from '../../services/articles';
+import ArticlesComponent from '../../components/articles/articles';
 
-export default function Home() {
+export default function Article() {
 
   const [articles, setArticles] = useState([]);
 
@@ -22,13 +22,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>HOME | CeroyUno</title>
+        <title>BLOG | CeroyUno</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <MenuComponent />
         <h1 className="title">
-          HOME | CeroyUno
+          BLOG | CeroyUno
         </h1>
         <div>
           { articles && <ArticlesComponent content={articles} /> }
