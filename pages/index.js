@@ -28,7 +28,7 @@ export default function Home() {
       <main>
         <MenuComponent />
         <h1 className="title">
-          HOME | CeroyUno
+          HOME | CeroyUno | Test rewrite
         </h1>
         <div>
           { articles && <ArticlesComponent content={articles} /> }

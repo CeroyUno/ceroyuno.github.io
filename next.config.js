@@ -1,11 +1,13 @@
+const fetch = require('node-fetch');
+
 module.exports = {
   distDir: 'dist',
-  exportPathMap: function () {
-    return {
-      "/": { page: "/" },
-      "/news": { page: "/news" },
-      "/news/new-a": { page: "/news/new-a" },
-      "/news/new-b": { page: "/news/new-b" },
-    }
+  async rewrites() {
+    return [
+      {
+        source: '/news/:slug',
+        destination: '/blog/:slug', // Matched parameters can be used in the destination
+      },
+    ]
   },
 }
